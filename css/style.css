@@ -215,7 +215,7 @@ img {
   max-width: 650px;
   text-align: center;
 }
-.button {
+/* .button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -235,11 +235,18 @@ img {
 .button:hover,
 button:focus {
   background-color: #188CE8;
-}
-.skills {
+} */
+/* .skills {
   padding-bottom: 47px;
   font-size: 14px;
   line-height: 1.14;
+}
+.skills-list {
+  display: flex;
+}
+.skills-item,
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 .skills-box {
   display: flex;
@@ -252,13 +259,6 @@ button:focus {
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-}
-.skills-list {
-  display: flex;
-}
-.skills-item,
-.team-item:not(:last-child) {
-  margin-right: 30px;
 }
 .skills-title {
   margin-bottom: 10px;
@@ -275,12 +275,11 @@ button:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-.work {
+} */
+/* .work {
   padding-top: 47px;
 }
-.work-list,
-.team-list {
+.work-list {
   display: flex;
   margin-top: 50px;
 }
@@ -290,7 +289,7 @@ button:focus {
 .work-item {
   position: relative;
 }
-.card-title {
+.work-card-title {
   position: absolute;
   bottom: 0;
   padding: 27px;
@@ -314,15 +313,33 @@ button:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
-}
+} */
 .team {
   background: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.team-list {
+  display: flex;
+  margin-top: 50px;
 }
 li.team-item {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+.team-wrapper {
+  padding: 30px 5px;
 }
 .team-name,
 .team-position {
@@ -332,9 +349,6 @@ li.team-item {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
-}
-.team-wrapper {
-  padding: 30px 5px;
 }
 .team-position {
   margin-top: 10px;
