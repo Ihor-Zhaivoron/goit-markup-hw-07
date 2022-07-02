@@ -1,11 +1,24 @@
-@import './utils/variables.scss';
+// utils
+@import './utils/variables';
+@import './utils/placeholder';
+@import './utils/mixin';
 
+// base styles
 @import './base/reset';
 
-@import './components/conteiner';
-
-@import './components/section';
-
+// component styles
+@import './components/container';
+// @import './components/section';
 @import './components/logo';
+@import './components/button';
+@import './components/socials';
 
-@import './header';
+// layout styles
+@import './layout/header';
+@import './layout/title-section';
+@import './layout/skills';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/portfolio';
+@import './layout/footer';
