@@ -4,19 +4,10 @@
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus,
-.logo:hover,
-.logo:focus,
-.footer-mail:hover,
-.footer-mail:focus,
-.footer-tel:hover,
-.footer-tel:focus,
 .logo-dark:hover,
-.logo-dark:focus,
-.logo-light:hover,
-.logo-light:focus {
+.logo-dark:focus{
   color: var(--hover-focus-color);
 }
-
 .header {
   position: fixed;
   width: 100%;
@@ -89,12 +80,12 @@
 .contacts {
   margin-left: auto;
   display: flex;
-}
-.contacts .header-mail,
-.contacts .header-tel {
-  display: flex;
-  align-items: center;
-  padding: 32px 0;
+  .header-mail,
+  .header-tel {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+  }
 }
 .header-mail {
   color: #757575;

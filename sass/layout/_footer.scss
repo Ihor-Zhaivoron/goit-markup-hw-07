@@ -5,6 +5,14 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     background: #2f303a;
+    .socials-link {
+      color: #ffffff;
+      background-color:  rgba(255, 255, 255, 0.1);
+    
+      transition-property: background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
   .flex {
     display:flex;
@@ -54,14 +62,12 @@
     text-transform: uppercase;
     color: #FFFFFF;  
   }
-  .footer .socials-link {
-    color: #ffffff;
-    background-color:  rgba(255, 255, 255, 0.1);
-  
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  .footer-mail:hover,
+  .footer-mail:focus,
+  .footer-tel:hover,
+  .footer-tel:focus,
+  .logo-light:hover,
+  .logo-light:focus 
   .footer .socials-link:hover,
   .footer .socials-link:focus {
     background-color: var(--hover-focus-color);
