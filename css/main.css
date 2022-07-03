@@ -621,16 +621,13 @@ button:focus {
   margin-top: 20px;
 }
 
-.logo-light,
-.footer-item:first-child {
+.logo-light {
   color: #ffffff;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.logo-light:hover,
-.logo-light:focus {
+.logo-light:hover, .logo-light:focus {
   color: var(--hover-focus-color);
 }
 
@@ -654,19 +651,14 @@ button:focus {
 .address-text {
   font-style: normal;
   text-decoration: none;
+  color: #ffffff;
 }
 
-.connect-box {
+.connect {
   margin-left: 70px;
 }
 
-.footer-socials {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.connect-title {
+.connect__title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
