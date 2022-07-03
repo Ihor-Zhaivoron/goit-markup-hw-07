@@ -94,7 +94,7 @@ img {
 
   z-index: 1;
 }
-.conteiner {
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -208,7 +208,7 @@ img {
   background-position: center;
   background-size: cover;
 }
-.title-section .conteiner {
+.title-section .container {
   padding: 200px 0px;
 }
 .title-text {

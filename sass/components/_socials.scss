@@ -1,12 +1,12 @@
-.socials-list {
+.socials {
     display: flex;
     justify-content: center;
     margin-top: 16px;
   }
-  .socials-item:not(:last-child) {
+  .socials__item:not(:last-child) {
   margin-right: 10px;
   }
-  .socials-link {
+  .socials__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +18,13 @@
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+      color:#ffffff;
+      background-color: var(--hover-focus-color);
+      }
     }
-  .socials-link:hover,
-  .socials-link:focus {
-    color:#ffffff;
-    background-color: var(--hover-focus-color);
-  }
-  .socials-icon {
+  
+  .socials__icon {
     fill: currentColor;
   }
