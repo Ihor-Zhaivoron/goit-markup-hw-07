@@ -8,11 +8,11 @@
     .socials-link {
       color: #ffffff;
       background-color:  rgba(255, 255, 255, 0.1);
-    
-      transition-property: background-color;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+      &:hover,
+      &:focus {
+      background-color: var(--hover-focus-color);
+      }
+    }    
   }
   .flex {
     display:flex;
@@ -30,6 +30,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .logo-light:hover,
+  .logo-light:focus  {
+    color: var(--hover-focus-color);
+  }
   .footer-mail,
   .footer-tel {
     color: rgba(255, 255, 255, 0.6);
@@ -37,6 +41,10 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--hover-focus-color);
+    }  
   }
   .footer-item:not(:first-child) {
     margin-top: 9px;
@@ -62,14 +70,4 @@
     text-transform: uppercase;
     color: #FFFFFF;  
   }
-  .footer-mail:hover,
-  .footer-mail:focus,
-  .footer-tel:hover,
-  .footer-tel:focus,
-  .logo-light:hover,
-  .logo-light:focus 
-  .footer .socials-link:hover,
-  .footer .socials-link:focus {
-    background-color: var(--hover-focus-color);
-  }
-  
+ 

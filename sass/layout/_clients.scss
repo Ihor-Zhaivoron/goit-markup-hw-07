@@ -2,6 +2,7 @@
     // @extend %section;
 
     @include section(94px);
+    
 }
 
 .client-list {
@@ -26,12 +27,12 @@
     transition-property: color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .client-link:hover,
-  .client-link:focus {
+    &:hover,
+    &:focus {
     color:#2196F3;
     border: 1px solid #2196F3;
-  }
+    }
+  }  
   .client-icon {
     fill: currentColor;
   }
